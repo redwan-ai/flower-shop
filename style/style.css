@@ -40,3 +40,37 @@ body {
     width: 150px;
     font-size: larger;
 }
+.banner2{
+    text-align: center;
+    margin-top: 80px;
+align-items: center;
+}
+.banner2 .image-section{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 50px;
+}
+.image-section{
+    width: 90%;
+  height: 650px;
+  
+}
+.first-img .second-img .third-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#first {
+    background-color: #f2dee7;
+  }
+  #second {
+    background-color: #daf0f2;
+  }
+  #third {
+    background-color: #e3ecdc;
+  }
+  #first #second #third{
+    border-radius: 50% 50% 0 0;
+  }
